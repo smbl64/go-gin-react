@@ -4,4 +4,8 @@ default:
 
 run-backend:
   watchexec -c -f *.go -r 'go run -C backend . '
-  #watchexec -c -f *.go -r 'go build -C backend . && ./backend/go-gin-react'
+
+
+run-frontend:
+  npm run --prefix frontend dev
+
