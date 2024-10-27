@@ -9,3 +9,5 @@ run-backend:
 run-frontend:
   npm run --prefix frontend dev
 
+lint:
+  ./bin/lint.sh
